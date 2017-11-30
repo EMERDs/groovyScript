@@ -1,5 +1,5 @@
 node{
-    echo "Pipeline script example"
+    echo "Pipeline script example... from mavenProj file"
     writeFile file: 'sample.txt', text: 'hellow'
     bat'''
         echo 'line 2' >> sample.txt
